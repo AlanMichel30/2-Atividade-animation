@@ -49,8 +49,8 @@ h5:hover {
     }
     
     25% {
-        left: 1500px;
-        top: -500px;
+        left: 1000px;
+        top: -300px;
         background-color: blue;
     }
 
@@ -61,14 +61,14 @@ h5:hover {
     }
 
     75% {
-        left: 1700px;
+        left: 1000px;
         top: 0px;
         background-color: red;
     }
 
     100% {
         left: 500px;
-        top: 325px;
+        top: 190px;
         background-color: bisque;
     }
 }

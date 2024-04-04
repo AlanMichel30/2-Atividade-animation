@@ -36,7 +36,7 @@ h5:hover {
     border-radius: 360px;
     background-color: yellow;
     animation: deslocar;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: 4;
     position: relative;
     margin-left: 100px;
@@ -45,16 +45,30 @@ h5:hover {
 @keyframes deslocar {
     0% {
         left: 0px;
-        
+        top: 0px;
     }
     
-    50% {
-        left: 900px;
+    25% {
+        left: 1500px;
+        top: -500px;
         background-color: blue;
     }
 
+    50% {
+        left: -100px;
+        top: -200px;
+        background-color: bisque;
+    }
+
+    75% {
+        left: 1700px;
+        top: 0px;
+        background-color: red;
+    }
+
     100% {
-        left: 0px;
+        left: 500px;
+        top: 325px;
         background-color: bisque;
     }
 }
